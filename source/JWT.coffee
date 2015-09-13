@@ -93,7 +93,6 @@ class JWT
     unless token
       return next()
 
-
     request.token = token
 
     @_decodeTokenAndFindUser(
