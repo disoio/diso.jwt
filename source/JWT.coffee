@@ -27,8 +27,7 @@ class JWT
   # -----------
   # **secret** : secret used for JWT encode/decode
   #
-  # **models** : server side models used for retrieving a
-  #              a User model for lookup
+  # **User** : User model used for lookup
   constructor : (args = {})->
     @secret = args.secret
     @User   = args.User
